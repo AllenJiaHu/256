@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'GTEestiProDisplay-Medium'; 
+    src: url('GTEestiProDisplay-Medium.otf');
+}
+
+* {
+	font-family: 'GTEestiProDisplay-Medium';
+	font-weight: normal;
+	font-size: 72pt;
+}
+
+body {
+	margin: 0 auto;
+}
+
+#indexHeader {
+	background-color: grey;
+	padding: 4%
+}
+
+.indexTitle {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 2px;
+}
+
+#indexList {
+	margin-top: 4%;
+	text-align: center;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.indexItem {
+	margin: 3%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*.link{
+	color: red !important;
+}*/
